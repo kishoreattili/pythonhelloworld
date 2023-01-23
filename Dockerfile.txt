@@ -1,6 +1,0 @@
-FROM python:3
-ADD python.py /
-RUN pip install flask
-RUN pip install flask_restful
-EXPOSE 8085
-CMD [ "python", "./python.py"]
